@@ -7,5 +7,5 @@
     <link rel="icon" href="images/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Pokemon list</title>
+    <title>PokeSearch</title>
 </head>
