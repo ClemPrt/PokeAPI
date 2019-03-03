@@ -1,0 +1,94 @@
+html{
+    font-family: 'Montserrat',
+    sans-serif
+}
+
+body{
+    font-size: 61.5%;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+
+/******************************************
+                Button
+******************************************/
+.button{
+    text-align: center;
+}
+
+.button_type{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button_type_plante{
+    background-color: #78C850
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    border: 1px solid #1B6C8D;
+    padding: 15px 30px;
+    background-color: #1B6C8D;
+    color: white;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+
+
+/******************************************
+                Menu
+******************************************/
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+}
+
+.menu .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 0;
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    transform: translateX(-100%);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    will-change: transform;
+    overflow: scroll;
+}
+
+.menu.open .inner {
+    transform: translateX(0%);
+}
