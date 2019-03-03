@@ -2,6 +2,7 @@
 
 ## Features
 - Search pokemon bar
+- Pokemo information (Name/Number/Types/Height/Speed/Special defense/Special attack/Defense/Attack/HP)
 - Error option
 - Cache option
 
